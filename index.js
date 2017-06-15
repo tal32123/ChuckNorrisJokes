@@ -1,6 +1,5 @@
 'use strict';
 var Alexa = require('alexa-sdk');
-// Credit to: https://github.com/alexa/skill-sample-nodejs-fact/blob/master/src/index.js
 
 //=========================================================================================================================================
 //TODO: The items below this comment need your attention.
@@ -10,9 +9,9 @@ var Alexa = require('alexa-sdk');
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = "undefined";
 
-var SKILL_NAME = "Chuck Norris Jokes";
+var SKILL_NAME = "Funny Jokes";
 var GET_FACT_MESSAGE = "Here's your joke: ";
-var HELP_MESSAGE = "You can say tell me a Chuck Norris joke, or, you can say exit... What can I help you with?";
+var HELP_MESSAGE = "You can say tell me a joke, or, you can say exit... What can I help you with?";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
 
@@ -20,7 +19,7 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "Chuck Norris doesn't read books. He stares them down until he gets the information he wants.",
+    "I told my girlfriend she drew her eyebrows too high. She seemed surprised.",
     "I find it ironic that the colors red, white, and blue stand for freedom until they are flashing behind you.",
     "If i had a dollar for every girl that found me unattractive, they would eventually find me attractive.",
     "When my boss asked me who is the stupid one, me or him? I told him everyone knows he doesn't hire stupid people.",
